@@ -21,7 +21,7 @@ fmt.Println("Foreach loop running::::")
 //If used for associative data structure ,the iterator holds the key - value pair .
 //for _, value returns only values.
 //for _, key returns only keys .
-    studentGrades := [3]int{10,15,20}
+    studentGrades := [3]int{10,15,20}  //This is how array is made in Go . It is array of 3 integers with values inside braces.
     for _, grades := range studentGrades {
         fmt.Println("Grade is: ",grades)
     }
