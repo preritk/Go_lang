@@ -15,7 +15,8 @@ func main(){
     //Now how to declare a 2D matrix in Go .
     var brr [3][3]int 
     for i :=0;i<3;i++{
-        for j:=0;j<3;j++{            brr[i][j] = i*j
+        for j:=0;j<3;j++{            
+            brr[i][j] = i*j
         }
     }
     fmt.Println(brr)  //No need to write a double loop to print 2D matrix in Go.
